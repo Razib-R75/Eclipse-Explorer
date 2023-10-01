@@ -1,4 +1,4 @@
-# Unity Solar System Eclipse Game
+# Solar System Eclipse Game
 
 Welcome to the Unity Solar System Eclipse Game repository! This immersive educational game aims to provide players with an interactive and informative experience about solar system eclipses. Whether you're a space enthusiast or just curious about celestial events, this Unity-based game offers an engaging way to learn and have fun.
 
