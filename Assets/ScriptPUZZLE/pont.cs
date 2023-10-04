@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Xml.Schema;
+
 using UnityEngine;
-using UnityEngine.Windows.WebCam;
+
 
 public class pont : MonoBehaviour
 {
@@ -16,7 +14,7 @@ public class pont : MonoBehaviour
 
     void Start()
     {
-        qize_compo.SetActive(true);
+        qize_compo.SetActive(false);
         cong.SetActive(false);
     }
 
