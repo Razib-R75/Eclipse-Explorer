@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Manu.unity
+    guid: 48dbacbab5967b34380f8a62680038f9
+  - enabled: 1
+    path: Assets/Scenes/Soler_System.unity
+    guid: dcb82ed65e9dda849bed4972baab2b85
+  - enabled: 1
+    path: Assets/Scenes/MAP.unity
+    guid: c5e80b49848c53e4d99bfaeaa37b06c1
+  - enabled: 1
+    path: Assets/Scenes/VR.unity
+    guid: b77b3ae8125fc764a8b59e9bbfc6fb75
+  - enabled: 1
+    path: Assets/Scenes/Video+quiz.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/puzzle.unity
+    guid: afba03dd8b9f01842ad4cdc0159e18f9
   m_configObjects: {}
