@@ -11,7 +11,7 @@ Welcome to the Unity Solar System Eclipse Game repository! This immersive educat
 ## Getting Started
 To get started with the game, follow these steps:
 
-1. **Clone the Repository:** Clone this repository to your local machine using the following command:git clone https://github.com/Razib-R75/3D_Eclipse.git
+1. **Clone the Repository:** Clone this repository to your local machine using the following command: git clone https://github.com/Razib-R75/3D_Eclipse.git
 
 2. **Unity Setup:** Open the project in Unity 2022.3.5f1.
 
