@@ -3121,7 +3121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToChange: {fileID: 1693443227}
-  year: {fileID: 0}
+  year: {fileID: 2079569812}
   objectToChange2: {fileID: 1404923523}
   earth1: {fileID: 1404923523}
   earth2: {fileID: 1693443227}
@@ -3233,7 +3233,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1248871496}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1207192387}
+        m_TargetAssemblyTypeName: MaterialChange, Assembly-CSharp
+        m_MethodName: SelectYear
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1248871496
 MonoBehaviour:
   m_ObjectHideFlags: 0
