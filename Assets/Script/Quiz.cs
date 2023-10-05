@@ -31,15 +31,21 @@ public class Quiz : MonoBehaviour
         {
             new Question
             {
-                questionText = "What is 2 + 2?",
-                options = new string[] { "3", "4", "5" },
-                correctOptionIndex = 1
+                questionText = "When did the annular eclipse take place in 2021?",
+                options = new string[] { "June10,2021", "June15,2021", "June 20, 2021","July 10, 2021" },
+                correctOptionIndex = 0
             },
             new Question
             {
-                questionText = "What is the capital of France?",
-                options = new string[] { "London", "Berlin", "Paris" },
+                questionText = "which shadow cast by the sun is the smallest and darkest?",
+                options = new string[] { "Penumbra", "Gumbra", "Gumbra","Dendumbra" },
                 correctOptionIndex = 2
+            },
+            new Question
+            {
+                questionText = "Which of the following areas could see the Annular eclipse that took place in 2021? i) Asia ii) Europe iii) Australia ",
+                options = new string[] { "i & iii", "i&ii", "i,ii&iii", "None of the above" },
+                correctOptionIndex = 1
             },
             // Add more questions as needed.
         };
@@ -73,6 +79,11 @@ public class Quiz : MonoBehaviour
                 PauseVideo(); // Pause the video when showing the question.
             }
             else if (videoPlayTime >= 20f && currentQuestionIndex == 1 && !isQuestionActive)
+            {
+                ShowQuestion();
+                PauseVideo(); // Pause the video when showing the question.
+            }
+            else if (videoPlayTime >= 25f && currentQuestionIndex == 2 && !isQuestionActive)
             {
                 ShowQuestion();
                 PauseVideo(); // Pause the video when showing the question.

@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class buttonManager : MonoBehaviour
 {
     public GameObject LavelMenu;
+
+    public GameObject catagory;
     
     public GameObject Interct_E_B;
     public GameObject Map;
@@ -18,7 +20,7 @@ public class buttonManager : MonoBehaviour
         // Ensure the initial state is set correctly.
         LavelMenu.SetActive(false);
         PazzleVdo.SetActive(false);
-       
+        catagory.SetActive(false);
         Interct_E_B.SetActive(true);
         Map.SetActive(true);
         Start_G.SetActive(true);
@@ -26,7 +28,8 @@ public class buttonManager : MonoBehaviour
 
     public void OnStart_GClick()
     {
-        LavelMenu.SetActive(true);
+        LavelMenu.SetActive(false);
+        catagory.SetActive(true);
 
         Interct_E_B.SetActive(false);
         Map.SetActive(false);
@@ -73,6 +76,15 @@ public class buttonManager : MonoBehaviour
     {
         LavelMenu.SetActive(false);
         PazzleVdo.SetActive(true);
+        Interct_E_B.SetActive(false);
+        Map.SetActive(false);
+        Start_G.SetActive(false);
+    } 
+    public void OncatagorySolerClick()
+    {
+        catagory.SetActive(false);
+        LavelMenu.SetActive(true);
+        PazzleVdo.SetActive(false);
         Interct_E_B.SetActive(false);
         Map.SetActive(false);
         Start_G.SetActive(false);
