@@ -11,12 +11,16 @@ public class buttonManager : MonoBehaviour
     public GameObject FB_G;
     public GameObject catagory;
     public GameObject catagory2;
+    public GameObject catagory3;
     public GameObject YearList;
     public GameObject Interct_E_B;
     public GameObject Map;
     public GameObject Start_G;
     public GameObject PazzleVdo;
     public GameObject slkY;
+    public GameObject e20211; 
+    public GameObject e2021M;
+    public GameObject Sylect;
 
     private void Start()
     {
@@ -32,6 +36,10 @@ public class buttonManager : MonoBehaviour
         slkY.SetActive(false);
         Lavel1.SetActive(false);
         FB_G.SetActive(false);
+        e20211.SetActive(false);
+       // e2021M.SetActive(false);
+        catagory3.SetActive(false);
+        Sylect.SetActive(false);
     }
 
     public void OnStart_GClick()
@@ -71,6 +79,7 @@ public class buttonManager : MonoBehaviour
         Interct_E_B.SetActive(true);
         Map.SetActive(true);
         Start_G.SetActive(true);
+        Lavel1.SetActive(true);
     }
     public void OnBackL1Click()
     {
@@ -93,6 +102,9 @@ public class buttonManager : MonoBehaviour
         catagory2.SetActive(false);
         YearList.SetActive(false);
         slkY.SetActive(false);
+        catagory3.SetActive(false);
+        e20211.SetActive(false);
+        Sylect.SetActive(false);
 
     } 
     public void OncatagorySolerClick()
@@ -105,6 +117,19 @@ public class buttonManager : MonoBehaviour
         Start_G.SetActive(false);
         slkY.SetActive(true);
         
+    } 
+    public void OncatagorySoler22Click()
+    {
+        catagory.SetActive(false);
+        LavelMenu.SetActive(false);
+        PazzleVdo.SetActive(false);
+        Interct_E_B.SetActive(false);
+        Map.SetActive(false);
+        Start_G.SetActive(false);
+        Sylect.SetActive(true);
+        e20211.SetActive(false);
+        e2021M.SetActive(true);
+
     }
     public void OncatagorySolerClick2()
     {
@@ -119,14 +144,30 @@ public class buttonManager : MonoBehaviour
         YearList.SetActive(true);
         catagory2.SetActive(false);
         YearList.SetActive(false);
+        e20211.SetActive(true);
+        e2021M.SetActive(false);
     }
     public void SelectYear()
     {
         YearList.SetActive(true);
+        e20211.SetActive(true);
+    }
+    public void SelectYear2()
+    {
+        YearList.SetActive(true);
+        e20211.SetActive(false);
+        e2021M.SetActive(true);
     }
     public void Year21()
     {
         catagory2.SetActive(true);
+        catagory.SetActive(false);
+      
+    }
+    public void Year211()
+    {
+        catagory3.SetActive(true);
+        catagory2.SetActive(false);
     }
     public void Poke()
     {

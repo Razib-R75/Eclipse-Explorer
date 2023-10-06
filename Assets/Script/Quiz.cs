@@ -12,7 +12,7 @@ public class Quiz : MonoBehaviour
 
     private int currentQuestionIndex = 0;
     private Question[] questions;
-    private int score = 0;
+    public int score = 0;
     private float videoPlayTime = 0f;
     private bool isQuestionActive = false;
     private bool allQuestionsAnswered = false; // Flag to track if all questions have been answered.

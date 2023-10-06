@@ -819,6 +819,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1170840222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1170840223}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1170840223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170840222}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 898.03937, y: 431.35504, z: 8.952718}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1229298649
 GameObject:
   m_ObjectHideFlags: 0
@@ -1324,6 +1355,7 @@ GameObject:
   - component: {fileID: 1390519720}
   - component: {fileID: 1390519719}
   - component: {fileID: 1390519718}
+  - component: {fileID: 1390519722}
   m_Layer: 5
   m_Name: CanvasQ
   m_TagString: Untagged
@@ -1418,6 +1450,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1390519722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390519717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d46b963a31c7442986b058783e2fdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1472536939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1782,6 +1826,7 @@ MonoBehaviour:
   - {fileID: 956007078}
   - {fileID: 77657480}
   - {fileID: 1626216896}
+  score: 0
 --- !u!4 &1689554627
 Transform:
   m_ObjectHideFlags: 0
@@ -1942,3 +1987,4 @@ SceneRoots:
   - {fileID: 1236517523}
   - {fileID: 1689554627}
   - {fileID: 1390519721}
+  - {fileID: 1170840223}
