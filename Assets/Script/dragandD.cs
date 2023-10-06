@@ -34,7 +34,8 @@ public class dragandD : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
-                Vector3 newPosition = hit.point + offset;
+                // Freeze the Y coordinate and only update X and Z
+                Vector3 newPosition = new Vector3(hit.point.x + offset.x, transform.position.y, hit.point.z + offset.z);
                 transform.position = newPosition;
             }
         }

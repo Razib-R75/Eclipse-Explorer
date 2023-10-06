@@ -38,7 +38,7 @@ public class Quiz : MonoBehaviour
             new Question
             {
                 questionText = "which shadow cast by the sun is the smallest and darkest?",
-                options = new string[] { "Penumbra", "Gumbra", "Gumbra","Dendumbra" },
+                options = new string[] { "Penumbra", "Gumbra", "umbra","Dendumbra" },
                 correctOptionIndex = 2
             },
             new Question
@@ -73,17 +73,17 @@ public class Quiz : MonoBehaviour
         // Check if it's time to show a question.
         if (!allQuestionsAnswered)
         {
-            if (videoPlayTime >= 10f && currentQuestionIndex == 0 && !isQuestionActive)
+            if (videoPlayTime >= 15f && currentQuestionIndex == 0 && !isQuestionActive)
             {
                 ShowQuestion();
                 PauseVideo(); // Pause the video when showing the question.
             }
-            else if (videoPlayTime >= 20f && currentQuestionIndex == 1 && !isQuestionActive)
+            else if (videoPlayTime >= 38f && currentQuestionIndex == 1 && !isQuestionActive)
             {
                 ShowQuestion();
                 PauseVideo(); // Pause the video when showing the question.
             }
-            else if (videoPlayTime >= 25f && currentQuestionIndex == 2 && !isQuestionActive)
+            else if (videoPlayTime >= 78f && currentQuestionIndex == 2 && !isQuestionActive)
             {
                 ShowQuestion();
                 PauseVideo(); // Pause the video when showing the question.
