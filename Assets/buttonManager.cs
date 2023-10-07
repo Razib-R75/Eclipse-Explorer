@@ -20,7 +20,8 @@ public class buttonManager : MonoBehaviour
     public GameObject slkY;
     public GameObject e20211; 
     public GameObject e2021M;
-    public GameObject Sylect;
+    public GameObject Sylect; 
+    public GameObject ExitB;
 
     private void Start()
     {
@@ -40,6 +41,7 @@ public class buttonManager : MonoBehaviour
        // e2021M.SetActive(false);
         catagory3.SetActive(false);
         Sylect.SetActive(false);
+        ExitB.SetActive(true);
     }
 
     public void OnStart_GClick()
@@ -50,6 +52,7 @@ public class buttonManager : MonoBehaviour
         Interct_E_B.SetActive(false);
         Map.SetActive(false);
         Start_G.SetActive(false);
+        ExitB.SetActive(false);
     }
 
     public void OnInterct_E_BClick()
